@@ -1,12 +1,13 @@
-
+var entry = prompt('Enter a number between 1 & 100');
 function fizzBuzz(entry){
   for (i=1; i <= entry; i++){
     if (i % 3 === 0)
-      $('body ul').append("<li>Fizz</li>").text();
+      $('body').append("<li>Fizz</li>").text();
     else if (i % 5 === 0)
-      $('body ul').append("<li>Fizz</li>").text();
+      $('body').append("<li>Fizz</li>").text();
     else 
-      $('body ul').append("<li>"+i+"</li>").text();
-}};
-var entry = prompt('Enter a number between 1 & 100');
+      $('body').append("<li>"+i+"</li>").text();
+
+}}
 fizzBuzz(entry);
+
